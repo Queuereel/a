@@ -1,13 +1,35 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Aquasword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aquasword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elemental_essence/models/item/aquasword.json",
+          "src/main/java/net/mcreator/elementalessence/item/AquaswordItem.java"
+        ]
+      },
+      "path": "~/Swords"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.elemental_essence.aquasword": "Aquasword"
+    }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Swords",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "elemental_essence",
@@ -23,6 +45,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.elementalessence",
     "lockBaseModFiles": false
   },

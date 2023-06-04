@@ -27,24 +27,7 @@
     "children": [
       {
         "name": "Swords",
-        "children": [
-          {
-            "name": "Tidal Unity",
-            "children": []
-          },
-          {
-            "name": "Emper Heart",
-            "children": []
-          },
-          {
-            "name": "Hover Stone",
-            "children": []
-          },
-          {
-            "name": "Breeze Slicer",
-            "children": []
-          }
-        ]
+        "children": []
       }
     ]
   },
