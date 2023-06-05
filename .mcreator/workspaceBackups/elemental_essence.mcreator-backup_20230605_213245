@@ -60,6 +60,19 @@
           "src/main/java/net/mcreator/elementalessence/Aaaa.java"
         ]
       }
+    },
+    {
+      "name": "TidalUnityCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tidal_unity_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elemental_essence/recipes/tidal_unity_craft.json"
+        ]
+      },
+      "path": "~/Swords/Tidal Unity"
     }
   ],
   "variable_elements": [],

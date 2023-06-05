@@ -60,6 +60,34 @@
           "src/main/java/net/mcreator/elementalessence/Aaaa.java"
         ]
       }
+    },
+    {
+      "name": "TidalUnityCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tidal_unity_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/elemental_essence/recipes/tidal_unity_craft.json"
+        ]
+      },
+      "path": "~/Swords/Tidal Unity"
+    },
+    {
+      "name": "EmperHeart",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emper_heart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/elementalessence/item/EmperHeartItem.java",
+          "src/main/resources/assets/elemental_essence/models/item/emper_heart.json"
+        ]
+      },
+      "path": "~/Swords/Emper Heart"
     }
   ],
   "variable_elements": [],
@@ -67,6 +95,7 @@
   "language_map": {
     "en_us": {
       "item.elemental_essence.tidal_unity": "Tidal Unity Sword",
+      "item.elemental_essence.emper_heart": "Emper Heart Sword",
       "item.elemental_essence.aquasword": "Aquasword"
     }
   },

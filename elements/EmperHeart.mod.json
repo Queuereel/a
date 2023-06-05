@@ -2,12 +2,12 @@
   "_fv": 39,
   "_type": "tool",
   "definition": {
-    "renderType": 1,
-    "texture": "tidal_unity",
-    "customModelName": "tidal_unity.geo:default",
-    "name": "Tidal Unity Sword",
+    "renderType": 0,
+    "texture": "bebra",
+    "customModelName": "Normal",
+    "name": "Emper Heart Sword",
     "specialInfo": [
-      "Tidal Unity"
+      "Emper Heart"
     ],
     "creativeTab": {
       "value": "COMBAT"
@@ -24,9 +24,6 @@
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onRightClickedInAir": {
-      "name": "TidalUnityProcedure"
-    }
+    "damageOnCrafting": false
   }
 }
