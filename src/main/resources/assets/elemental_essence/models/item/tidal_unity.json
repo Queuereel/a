@@ -1,6 +1,6 @@
 {
-  "parent": "elemental_essence:custom/tidal_unity.geo",
+  "parent": "item/handheld",
   "textures": {
-    "particle": "elemental_essence:items/tidal_unity"
+    "layer0": "elemental_essence:items/image"
   }
 }

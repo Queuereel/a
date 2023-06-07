@@ -1,21 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Aquasword",
-      "type": "tool",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "aquasword",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/elemental_essence/models/item/aquasword.json",
-          "src/main/java/net/mcreator/elementalessence/item/AquaswordItem.java"
-        ]
-      },
-      "path": "~/Swords"
-    },
-    {
       "name": "TidalUnity",
       "type": "tool",
       "sortid": 1,
@@ -111,15 +96,15 @@
       "path": "~/Swords/Emper Heart"
     },
     {
-      "name": "TidalUnityImmunityTest1",
+      "name": "ImmunityForEffects",
       "type": "procedure",
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tidal_unity_immunity_test_1",
+      "registry_name": "immunity_for_effects",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/elementalessence/procedures/TidalUnityImmunityTest1Procedure.java"
+          "src/main/java/net/mcreator/elementalessence/procedures/ImmunityForEffectsProcedure.java"
         ],
         "dependencies": [
           {
@@ -128,7 +113,7 @@
           }
         ]
       },
-      "path": "~/Swords/Tidal Unity"
+      "path": "~/Swords"
     }
   ],
   "variable_elements": [
@@ -143,8 +128,7 @@
   "language_map": {
     "en_us": {
       "item.elemental_essence.tidal_unity": "Tidal Unity Sword",
-      "item.elemental_essence.emper_heart": "Emper Heart Sword",
-      "item.elemental_essence.aquasword": "Aquasword"
+      "item.elemental_essence.emper_heart": "Emper Heart Sword"
     }
   },
   "foldersRoot": {

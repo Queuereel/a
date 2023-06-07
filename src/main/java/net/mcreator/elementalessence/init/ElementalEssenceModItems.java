@@ -12,12 +12,10 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.elementalessence.item.TidalUnityItem;
 import net.mcreator.elementalessence.item.EmperHeartItem;
-import net.mcreator.elementalessence.item.AquaswordItem;
 import net.mcreator.elementalessence.ElementalEssenceMod;
 
 public class ElementalEssenceModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ElementalEssenceMod.MODID);
 	public static final RegistryObject<Item> TIDAL_UNITY = REGISTRY.register("tidal_unity", () -> new TidalUnityItem());
-	public static final RegistryObject<Item> AQUASWORD = REGISTRY.register("aquasword", () -> new AquaswordItem());
 	public static final RegistryObject<Item> EMPER_HEART = REGISTRY.register("emper_heart", () -> new EmperHeartItem());
 }

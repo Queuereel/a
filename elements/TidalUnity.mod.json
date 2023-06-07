@@ -2,9 +2,9 @@
   "_fv": 39,
   "_type": "tool",
   "definition": {
-    "renderType": 1,
-    "texture": "tidal_unity",
-    "customModelName": "tidal_unity.geo:default",
+    "renderType": 0,
+    "texture": "image",
+    "customModelName": "Normal",
     "name": "Tidal Unity Sword",
     "specialInfo": [
       "Tidal Unity"
