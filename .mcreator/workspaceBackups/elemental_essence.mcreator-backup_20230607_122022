@@ -33,6 +33,7 @@
     {
       "name": "TidalUnityProcedure",
       "type": "procedure",
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tidal_unity_procedure",
@@ -73,13 +74,76 @@
         ]
       },
       "path": "~/Swords/Tidal Unity"
+    },
+    {
+      "name": "EmperHeart",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emper_heart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/elementalessence/item/EmperHeartItem.java",
+          "src/main/resources/assets/elemental_essence/models/item/emper_heart.json"
+        ]
+      },
+      "path": "~/Swords/Emper Heart"
+    },
+    {
+      "name": "EmperHeartProcedure",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emper_heart_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/elementalessence/procedures/EmperHeartProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Swords/Emper Heart"
+    },
+    {
+      "name": "TidalUnityImmunityTest1",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tidal_unity_immunity_test_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/elementalessence/procedures/TidalUnityImmunityTest1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Swords/Tidal Unity"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "Immunity",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "item.elemental_essence.tidal_unity": "Tidal Unity Sword",
+      "item.elemental_essence.emper_heart": "Emper Heart Sword",
       "item.elemental_essence.aquasword": "Aquasword"
     }
   },

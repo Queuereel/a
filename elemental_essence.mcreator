@@ -105,29 +105,40 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
       "path": "~/Swords/Emper Heart"
+    },
+    {
+      "name": "TidalUnityImmunityTest1",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tidal_unity_immunity_test_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/elementalessence/procedures/TidalUnityImmunityTest1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Swords/Tidal Unity"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "Immunity",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {

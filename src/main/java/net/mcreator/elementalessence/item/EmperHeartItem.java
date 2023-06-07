@@ -9,7 +9,12 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.network.chat.Component;
+
+import net.mcreator.elementalessence.procedures.EmperHeartProcedureProcedure;
 
 import java.util.List;
 
@@ -40,6 +45,13 @@ public class EmperHeartItem extends SwordItem {
 				return Ingredient.EMPTY;
 			}
 		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+	}
+
+	@Override
+	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
+		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
+		EmperHeartProcedureProcedure.execute(entity);
+		return ar;
 	}
 
 	@Override
